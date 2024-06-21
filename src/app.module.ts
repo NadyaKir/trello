@@ -1,3 +1,4 @@
+import { PomodoroModule } from './pomodoro/pomodoro.module'
 import { TimeBlockModule } from './time-block/time-block.module'
 import { Module } from '@nestjs/common'
 import { AuthModule } from './auth/auth.module'
@@ -11,7 +12,8 @@ import { TaskModule } from './task/task.module'
 		AuthModule,
 		UserModule,
 		TaskModule,
-		TimeBlockModule
+		TimeBlockModule,
+		PomodoroModule
 	]
 })
 export class AppModule {}

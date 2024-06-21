@@ -10,7 +10,6 @@ import {
 	Param,
 	Delete
 } from '@nestjs/common'
-
 import { TimeBlockDto } from './dto/time-block.dto'
 import { TimeBlockService } from './time-block.service'
 import { Auth } from 'src/auth/decorators/auth.decorator'

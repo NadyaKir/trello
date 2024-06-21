@@ -1,9 +1,6 @@
 import { Injectable } from '@nestjs/common'
 import { PrismaService } from '../prisma.service'
-import { AuthDto } from '../auth/dto/auth.dto'
-import { hash } from 'argon2'
 import { TaskDto } from './task.dto'
-import { startOfDay, subDays } from 'date-fns'
 
 @Injectable()
 export class TaskService {
