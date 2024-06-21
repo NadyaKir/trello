@@ -1,6 +1,6 @@
 import { Transform } from 'class-transformer'
 import { IsOptional, IsString, IsBoolean, IsEnum } from 'class-validator'
-import { Priority } from 'prisma/gnerated/client'
+import { Priority } from 'prisma/generated/client'
 
 export class TaskDto {
 	@IsOptional()
